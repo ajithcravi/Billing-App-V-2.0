@@ -1,6 +1,17 @@
-import React from "react";
+import React from "react";  //importing react module
 import "./App.css";
 
-const App = () => <h1>Vanakkam da mapla... React la irundhu...</h1>;
+import Form from "./components/Form.js";
+
+const App = () => {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1 className="App-title">Recipe Search</h1>
+      </header>
+      <Form />
+    </div>
+  );
+};
 
 export default App;
