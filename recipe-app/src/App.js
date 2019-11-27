@@ -1,17 +1,23 @@
-import React from "react";  //importing react module
+// Importing modules
+import React from "react"; //react module
+
+// Importing stylesheet
 import "./App.css";
 
-import Form from "./components/Form.js";
+// Importing components
+import Form from "./components/Form.js"; //Form component
 
-const App = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1 className="App-title">Recipe Search</h1>
-      </header>
-      <Form />
-    </div>
-  );
-};
+class App extends React.Component{
+  render(){
+    return (
+      <div className="App">
+        <header className="App-header">
+          <h1 className="App-title">Recipe Search</h1>
+        </header>
+        <Form />
+      </div>
+    );
+  }
+}
 
 export default App;
