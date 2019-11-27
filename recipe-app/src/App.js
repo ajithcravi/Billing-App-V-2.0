@@ -1,11 +1,6 @@
 import React from "react";
+import "./App.css";
 
-const App = () => {
-  return (
-    <div>
-      <h1>Vanakkam mapla... React la irundhu...</h1>
-    </div>
-  );
-};
+const App = () => <h1>Vanakkam da mapla... React la irundhu...</h1>;
 
 export default App;
